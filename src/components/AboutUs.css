@@ -1,0 +1,25 @@
+.about-us {
+    width: 223px;
+    height: 62px;
+    position: absolute;
+    top: 206px; /* Distance from the top of the page */
+    left: 373px; /* Distance from the left of the page */
+    background-color: #a10101; /* Background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 1;
+  }
+  
+  .about-us h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 61.72px;
+    color: white; /* Text color */
+    margin: 0;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  

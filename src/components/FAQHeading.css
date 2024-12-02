@@ -1,0 +1,24 @@
+.faq-heading {
+    width: 711px;
+    height: 63px;
+    position: absolute;
+    top: 236px; /* Positioning */
+    left: 551px; /* Center alignment based on layout */
+    background-color: #5b0301; /* Background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .faq-heading h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 62.93px;
+    color: white; /* Text color for contrast */
+    text-align: left;
+    margin: 0;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  
