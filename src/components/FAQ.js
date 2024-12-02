@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './FAQ.css';
-
+import FAQImage from './FAQImage';
+import FAQHeading from './FAQHeading';
 const FAQ = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -9,7 +10,10 @@ const FAQ = () => {
   };
 
   return (
-    <div className="faq-section">
+    <div className='faq-container'>
+<div className="faq-wrapper">
+        <FAQImage></FAQImage>
+        <div className="faq-section">
       <h1>Frequently Asked Questions</h1>
       <div className="faq-dropdown">
         {[1, 2, 3, 4].map((item, index) => (
@@ -28,6 +32,8 @@ const FAQ = () => {
           </div>
         ))}
       </div>
+    </div>
+    </div>
     </div>
   );
 };

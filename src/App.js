@@ -11,9 +11,6 @@ function App() {
     <div>
       <Header />
       <AboutUs />
-      <TravelPolicy />
-      <FAQHeading />
-      <FAQImage></FAQImage>
       <FAQ />
       <ContactHeading></ContactHeading>
     </div>

@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    position: relative;
     padding: 20px 40px;
   }
   
@@ -31,15 +30,15 @@
     width: 429px;
     height: 518px;
     position: absolute;
-    top: 164px;
-    left: 1011px;
+    top: 0px;
+    right: 0px;
   }
   
   .scholarship-image {
     width: 654px;
     height: 437px;
     position: absolute;
-    top: 423px;
-    left: 732px;
+    top: 11px;
+    right: 100px;
   }
   

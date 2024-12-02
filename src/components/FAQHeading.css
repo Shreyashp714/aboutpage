@@ -1,10 +1,7 @@
 .faq-heading {
     width: 711px;
     height: 63px;
-    position: absolute;
-    top: 236px; /* Positioning */
-    left: 551px; /* Center alignment based on layout */
-    background-color: #5b0301; /* Background color */
+    color: #5b0301; /* Background color */
     display: flex;
     justify-content: center;
     align-items: center;

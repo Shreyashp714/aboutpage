@@ -1,15 +1,13 @@
 .faq-image-container {
-    position: absolute;
-    top: 440px; /* Position the image */
-    left: 337px; /* Align horizontally */
     width: 341px;
     height: 375px;
+    margin-left: 20px;
   }
   
   .thinking-image {
     width: 100%; /* Ensure it fits the container */
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     opacity: 1; /* Adjust opacity if required */
   }
   
